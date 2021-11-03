@@ -1,0 +1,291 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    }
+.container{
+    display: flex;
+    background-color: #F4F6F6;
+    height: 100%;
+    border-radius: 7%;
+}
+.sidebar{
+    flex: 1;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #707070;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+} 
+.active a{ 
+    color: #FF7777;
+    background-color: white;
+    border-radius: 5%;
+    padding: 10px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+li {
+    margin: 40px 10px;
+    position: relative;
+    left: 15%;
+    margin-top: -10px;
+}
+#menu-item{
+    height: 25px;
+}
+#side-tree{
+    position: relative;
+    left: 7%;
+}
+.achievements svg{
+    cursor: pointer;
+}
+/** HERO SECTION BEGINS **/
+
+.hero{
+    flex: 2;
+}
+.achievements{
+    background-color: #77ACF1;
+    height: 30%;
+    width: 98%;
+    margin-top: 70px;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+#achievement-img{
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 80%;
+}
+.achievements h2{
+    font-family: 'Quicksand', sans-serif;
+    color: #F4F6F6;
+    font-size: 30px;
+    text-align: center;
+}
+.right_part-awards{
+    display: flex;
+}
+.right_part-awards h3{
+    font-family: 'Quicksand', sans-serif;
+    color: #F4F6F6;
+}
+.second-award{
+    margin-top: 20px;
+}
+.third-award{
+    margin-top: 13px;
+    padding-left: 10px;
+}
+h3{
+    padding-left: 20px;
+}
+img #medal{
+    margin-top: 50px;
+}
+.right-part-text{
+    display: flex;
+    
+}
+.right_part svg {
+    margin-top: 60px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    margin-right: 100px;
+}
+/**MY CLASS SECTION **/
+.my-class{
+    border-radius: 15%;
+    background-color: #F6DFEB;
+    height: 150px;
+    width: 140%;
+    flex-grow: 1;
+    padding: 5px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.my-class img{
+    position: relative;
+    left: 30%;
+    top: 10%;
+    height: 60%;
+}
+.my-class h3{
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+/**CLASS FORUM SECTION **/
+.class-forum{
+    border-radius: 15%;
+    background-color: #FFF8D9;
+    height: 150px;
+    width: 140%;
+    flex-grow: 1;
+    padding: 5px;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.class-forum img{
+    position: relative;
+    left: 30%;
+    top: 10%;
+    height: 60%;
+}
+.class-forum h3{
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+/**MY PROGRESS SECTION**/
+.my-progress{
+    border-radius: 15%;
+    background-color: #CAF7E3;
+    height: 150px;
+    width: 130%;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.my-progress img{
+    position: relative;
+    left: 30%;
+    top: 10%;
+    height: 60%;
+}
+.my-progress h3{
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+/**TEACHERS NOTES SECTION**/
+.teachers-notes{
+    border-radius: 15%;
+    background-color: #FFF5EB;
+    height: 150px;
+    width: 130%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.teachers-notes img{
+    position: relative;
+    left: 30%;
+    top: 10%;
+    height: 60%;
+}
+.teachers-notes h3{
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/**RIGHT SIDE PANEL BEGINS **/
+
+.intro_panel{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 23px;
+}
+.intro{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.intro h3{
+    color: #FF7777;
+    font-weight: 400;
+    font-size: 18px;
+}
+.intro_panel img{
+    height: 70px;
+}
+.points{
+    background-color: #65EBEF;
+    border-radius: 20px;
+    height: 110px;
+    width: 45%;
+    margin-top: 35px;
+    margin-right: 60px;
+}
+.points h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: #2B6567;
+    text-align: justify;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.points h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+    margin-top: 15px;
+    margin-left: 65px;
+    font-size: 28px;
+}
+.small-circle{
+    border-radius: 50%;
+    background-color: #C9F8FA;
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.bigger-circle{
+    border-radius: 50%;
+    background-color: #C9F8FA;
+    height: 35px;
+    width: 35px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.avatar{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 80px;
+}
+.avatar h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+}
+.avatar img{
+    height: 60%;
+    padding-top: 10px;
+}
+.intro_panel button{
+    background-color: #FF7777;
+    width: 95px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 15px;
+    box-shadow: 0 10px 30px 0 #f39090;
+    color: #CAF7E3;
+    font-size: 12px;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
